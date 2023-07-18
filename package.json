@@ -1,0 +1,19 @@
+{
+  "name": "text-formater",
+  "version": "1.0.0",
+  "description": "Text formater by psr",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ptkramos/text-formater.git"
+  },
+  "author": "psr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ptkramos/text-formater/issues"
+  },
+  "homepage": "https://github.com/ptkramos/text-formater#readme"
+}

@@ -1,0 +1,44 @@
+/* src/styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a; /* Cor de fundo do tema escuro */
+  color: #ffffff; /* Cor do texto no tema escuro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #282c34; /* Cor de fundo do input no tema escuro */
+  color: #ffffff; /* Cor do texto do input no tema escuro */
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #4CAF50; /* Cor de fundo do botão (verde da paleta ChatGPT) */
+  color: #ffffff; /* Cor do texto do botão */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+code {
+  display: block;
+  margin-top: 20px;
+  background-color: #282c34; /* Cor de fundo do resultado formatado no tema escuro */
+  padding: 10px;
+  border-radius: 5px;
+  color: #ffffff; /* Cor do texto do resultado formatado no tema escuro */
+}
