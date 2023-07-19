@@ -25,16 +25,26 @@ const InputForm = () => {
     .replace('RK', 'REALITYKINGS');
 
     let formatInput2 = input2
-    .toUpperCase()
-    .replace(' ', '')
-    .replace(',', (_, index, str) => (str.lastIndexOf(',') === index ? '&' : ''));
+    .split(',')
+    .map((name, index, arr) => {
+    const trimmedName = name.trim().replace(' ', '');
+    if (index === arr.length - 1 && arr.length > 1) {
+      return `& #${trimmedName}`;
+    } else {
+      return `#${trimmedName}`;
+    }
+    })
+    .join(', ')
+    .replace(', &', ' &')
+    .toUpperCase();
+
 
     let formatInput3 = input3
     .replace('And', 'and');
 
     const emojis = getEmojis(input3);
 
-    let formattedText = `**${formatInput1}** #${formatInput2} | __${formatInput3}__ ${emojis.join('')}`;
+    let formattedText = `**${formatInput1}** ${formatInput2} | __${formatInput3}__ ${emojis.join('')}`;
 
     setFormattedText(formattedText);
   };

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ptkramos/text-formater/issues"
   },
-  "homepage": "https://github.com/ptkramos/text-formater#readme"
+  "homepage": "https://github.com/ptkramos/text-formater#readme",
+  "dependencies": {
+    "clipboard": "^2.0.11"
+  }
 }
