@@ -1,0 +1,26 @@
+.names-list {
+  text-align: center;
+}
+
+.names-list-title {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.names-list-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.copy-message {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
